@@ -76,7 +76,7 @@ db.once("open", () => {
   });
 });
 
-app.get("/", (req, res) => res.status(200).send("success"));
+app.get("/", (req, res) => res.status(200).send("succeeded"));
 // app.get("/messages/sync", (req, res) => {
 //   Message.find((err, data) => {
 //     if (err) {
